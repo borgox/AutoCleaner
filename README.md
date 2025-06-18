@@ -1,34 +1,70 @@
-# AutoCleaner
-A beautiful, fast, and feature-rich file organization tool.
+# 🚀 AutoCleaner
 
-## Features
-- Scans specified directories for files.
-- Categorizes files based on their extensions.
-- Organizes files into category-specific folders.
-- Provides a preview of the organization before proceeding.
-- Generates detailed reports of the organization process.
+**AutoCleaner** is a sleek, fast, and feature-packed file organization tool  
+that helps you keep your directories clean — effortlessly.
 
-## Installation
+---
+
+## ✨ Features
+
+- 📁 Scans specified directories for files  
+- 🧠 Categorizes files by extension  
+- 📒 Sorts files into neatly organized folders  
+- 👀 Preview changes before applying them  
+- 📊 Generates detailed reports of what was organized  
+
+---
+
+## 🔧 Installation
+
 1. Clone the repository:
+
+   ```bash
    git clone https://github.com/borgox/AutoCleaner.git
+   ```
+
 2. Navigate to the project directory:
+
+   ```bash
    cd AutoCleaner
-3. Install the required packages:
+   ```
+
+3. Install dependencies:
+
+   ```bash
    pip install -r requirements.txt
+   ```
 
-## Usage
-Run the application with the desired folder paths:
+---
+
+## 🧪 Usage
+
+Run the app and pass one or more folders:
+
+```bash
 python src/main.py [folders] [options]
+```
 
-## Options
-- `--dry-run`: Preview changes without moving files.
-- `--auto-organize`: Automatically resolve ambiguous files.
-- `--no-backup`: Skip creating backup archives.
-- `--delete-empty`: Delete empty folders after organization.
-- `--log-level`: Set logging level (DEBUG, INFO, WARNING, ERROR).
+### ⚙️ Options
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+| Option            | Description |
+|-------------------|-------------|
+| `--dry-run`       | Simulates changes without moving files |
+| `--auto-organize` | Automatically resolves ambiguous file types |
+| `--no-backup`     | Skips backup creation |
+| `--delete-empty`  | Removes empty folders after sorting |
+| `--log-level`     | Sets log verbosity (`DEBUG`, `INFO`, etc.) |
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## 🤝 Contributing
+
+Got an idea or fix? Open an [issue](https://github.com/borgox/AutoCleaner/issues) or submit a pull request 🚀
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
