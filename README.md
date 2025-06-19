@@ -40,7 +40,7 @@ that helps you keep your directories clean — effortlessly.
 ## 🧪 Usage
 
 Run the app and pass one or more folders:
-
+⚠️MAKE SURE YOUR TERMINAL IS SET TO USE UTF-8 CHARMAP (`chcp 65001` on windows⚠️
 ```bash
 python src/main.py [folders] [options]
 ```
